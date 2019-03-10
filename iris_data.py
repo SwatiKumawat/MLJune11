@@ -27,6 +27,3 @@ print(test_target)
 pct=accuracy_score(test_target,output)
 
 print(pct)
-
-#  exporting  graph  for decisionTree
-tree.export_graphviz(clf, out_file="tree.dot", max_depth=7, feature_names=iris.feature_names, class_names=iris.target_names, filled=True,rounded=True)
